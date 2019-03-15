@@ -565,7 +565,7 @@ section.resume-section .resume-item .resume-date {
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    max-width: 400px;
+    max-width: z00px;
     margin: 0 auto;
     cursor: pointer;
 }
