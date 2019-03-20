@@ -1,7 +1,7 @@
 /*GENERAL STYLE*/
 
 body {
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: 'Open Sans', serif;
     padding-top: 54px;
     color: #868e96;
 }
@@ -19,14 +19,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display", Arial, sans-serif;
-    font-weight: 600;
+    font-family: 'Saira Extra Condensed', serif;
     text-transform: uppercase;
+    font-weight: 700;
     color: #343a40;
 }
 
 h1 {
-    font-size: 3.9rem;
+    font-size: 6rem;
     line-height: 5.5rem;
 }
 
@@ -34,15 +34,6 @@ h2 {
     font-size: 3.5rem;
 }
 
-h3 {
-    font-weight: 900;
-    font-size: 1.rem;
-}
-
-h4 {
-    font-family: "Quicksand", Arial, sans-serif;
-    font-size: 1.43rem;
-}
 
 a {
     color: #2196f3;
@@ -57,7 +48,7 @@ a:active {
 .subheading {
     font-weight: 500;
     font-family: "Quicksand", Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
 }
 
 /*==================================================
@@ -313,20 +304,57 @@ section.resume-section .resume-item .resume-date {
 }
 
 #about h1 {
-    /*font-size: 100%;*/
+    font-size: 7rem;
+}
+#about .subheading {
+    font-weight: 600;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+
+#about p {
+    padding-top: -100px;
+    font-family: 'Open Sans', serif;
+    text-transform: none;
+    color: #767474;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 /*==================================================
-                    EXPERIENCE
+                    SERVICES
 ====================================================*/
 #services {
     background: #f5f5f5;
 }
 
 #services .card h4 {
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: none;
     color: #555;
+}
+
+#services .card p {
+    font-family: 'Open Sans', serif;
+    text-transform: none;
+}
+
+
+/*==================================================
+                    EDUCATION
+====================================================*/
+
+#education h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: none;
+}
+
+
+#education .font-bd {
+    font-family: 'Open Sans', serif;
+    text-transform: none;
+    font-size: 1.2rem;
 }
 
 /*==================================================
@@ -339,6 +367,22 @@ section.resume-section .resume-item .resume-date {
     src: url("../font-awesome/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../font-awesome/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../font-awesome/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
     font-weight: normal;
     font-style: normal;
+}
+
+#exp p {
+    font-family: 'Open Sans', serif;
+    text-transform: none;
+    font-size: 14px;
+
+
+}
+
+.expp {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Open Sans', serif;
+
 }
 
 .colorlib-narrow-content {
@@ -510,35 +554,53 @@ section.resume-section .resume-item .resume-date {
     margin-top: 15px;
 }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 {
     font-size: 20px;
     font-family: "Quicksand", Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 700;
+    text-transform: none;
 }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
-    color: #000;
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 a {
+    color: #1a83eb;
 }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
-    -webkit-opacity: .4;
-    -moz-opacity: .4;
-    opacity: .4;
-    -ms-filter: alpha(opacity=40);
-    filter: alpha(opacity=40);
-    font-size: 16px;
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 span {
+
+    font-size: 20px;
 }
 
-.expp {
-    font-size: 16px;
-    margin-top: 5px;
+
+
+.expp-c1 {
+    color: #1a83eb;
 }
 
-.expp-c1 {color: #1a83eb;}
-.expp-c2 {color: #1a83eb;}
-.expp-c3 {color: #1a83eb;}
-.expp-c4 {color: #1a83eb;}
-.expp-c5 {color: #1a83eb;}
+.expp-c2 {
+    color: #1a83eb;
+}
+
+.expp-c3 {
+    color: #1a83eb;
+}
+
+.expp-c4 {
+    color: #1a83eb;
+}
+
+.expp-c5 {
+    color: #1a83eb;
+}
+
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon .logoentreprise {
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
 
 /*====================================================
                    PORTFOLIO
@@ -546,6 +608,17 @@ section.resume-section .resume-item .resume-date {
 
 #portfolio {
     padding: 100px 0;
+}
+
+#portfolio p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: none;
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: #1a83eb;
 }
 
 .port-head-cont {
@@ -712,14 +785,25 @@ section.resume-section .resume-item .resume-date {
     background-repeat: no-repeat;
 }
 
+#skills h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: none;
+    font-size: 1.2rem;
 
+}
+
+#skills p {
+    font-family: 'Open Sans', serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1.2rem;
+}
 
 .skill-cover {
     background-color: rgba(31, 31, 31, 0.68);
 }
 
 .skill-cover h3 {
-    font-family: "hind", sans-serif;
     font-size: 35px;
     margin-bottom: 40px;
 }
@@ -736,7 +820,6 @@ section.resume-section .resume-item .resume-date {
 
 .skill-item h2 {
     color: #fff;
-    font-size: "hind", sans-serif;
     font-size: 35px;
     font-weight: 700;
     margin-top: 15px;
@@ -745,7 +828,6 @@ section.resume-section .resume-item .resume-date {
 
 .skill-item p {
     color: #fff;
-    font-family: "hind", sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 300;
     margin-top: 0;
@@ -758,6 +840,7 @@ section.resume-section .resume-item .resume-date {
 
 .tags {
     font: 12px/1.5 'PT Sans', serif;
+    color: #fff;
     margin: 25px;
 }
 
@@ -837,7 +920,7 @@ section.resume-section .resume-item .resume-date {
 
 .services {
     margin-bottom: 30px;
-    padding: 1.5em;
+    padding: 1em;
     -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
     -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
     -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -1035,6 +1118,14 @@ section.resume-section .resume-item .resume-date {
 
 #awards {
     background: #f0f0f0;
+}
+
+
+#awards li {
+    font-family: 'Open Sans', serif;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 12px
 }
 
 #award-box {
@@ -1380,7 +1471,7 @@ section.resume-section .resume-item .resume-date {
 
 
 .carousel-item {
-    height: 400px;
+    height: 90%;
 }
 
 .carousel-item img {
