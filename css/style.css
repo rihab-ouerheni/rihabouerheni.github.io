@@ -373,10 +373,18 @@ section.resume-section .resume-item .resume-date {
     font-family: 'Open Sans', serif;
     text-transform: none;
     font-size: 14px;
-
-
 }
 
+#exp li {
+    font-family: 'Open Sans', serif;
+    text-transform: none;
+    font-size: 14px;
+}
+
+#exp .col-b {
+
+    font-size: 10px;
+}
 .expp {
     font-weight: 700;
     font-size: 14px;
